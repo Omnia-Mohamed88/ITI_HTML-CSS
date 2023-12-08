@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Styled Buttons</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        div {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        button {
+            padding: 10px 20px;
+            cursor: pointer;
+            margin: 5px;
+            border: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
+        }
+
+        #subscribeBtn {
+            color: white;
+            background-color: #c70100;
+        }
+
+        #joinBtn {
+            color: #3964ab;
+            background-color: white;
+            border: solid 1px #3964ab;
+        }
+
+        #tweetBtn {
+            color: white;
+            background-color: skyblue;
+            border: none;
+            border-radius: 10px;
+            font-size: 14px;
+        }
+
+        button:hover {
+            filter: brightness(0.8);
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div>
+            <button type="button" id="subscribeBtn">Subscribe</button>
+            <button type="button" id="joinBtn">Join</button>
+            <button type="button" id="tweetBtn">Share on Twitter</button>
+        </div>
+    </main>
+</body>
+
+</html>

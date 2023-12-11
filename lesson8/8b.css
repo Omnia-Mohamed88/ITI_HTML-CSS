@@ -1,0 +1,14 @@
+button {
+    display: inline;
+    vertical-align: middle;
+}
+
+p {
+    display: inline;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+
+p1 {
+    margin-right: 30px;
+}

@@ -1,0 +1,30 @@
+* {
+    margin: 1;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+#dp {
+    display: grid;
+    grid-template-columns: repeat(4, 80px);
+    gap: 80px;
+}
+
+#do {
+    display: grid;
+    grid-template-columns: repeat(4, 80px);
+    gap: 80px;
+}
+
+
+#d1,
+#d2,
+#d3,
+#d4 {
+    background-color: pink;
+    width: 180%;
+    height: 70%;
+    padding: 10px;
+}
